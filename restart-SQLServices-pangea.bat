@@ -13,6 +13,6 @@ net start "MSSQLFDLauncher"
 net start "SQLServerReportingServices"
 net start "ReportServer"
 echo Services restarted successfully
-:: timeout /t 5 /nobreak >nul
-:: echo Restarting sistem ...
-:: shutdown /r /f /t 0
+timeout /t 5 /nobreak >nul
+echo Restarting sistem ...
+shutdown /r /f /t 0
